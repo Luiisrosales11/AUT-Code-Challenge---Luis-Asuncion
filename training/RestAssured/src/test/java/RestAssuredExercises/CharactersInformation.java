@@ -5,6 +5,7 @@ import RestAssuredModel.CharactersInfo;
 import org.testng.annotations.Test;
 
 public class CharactersInformation{
+
     @Test
     public void WalterInformation(){
         String name;
