@@ -83,7 +83,7 @@ public class GetEmployees extends Employees {
     @Test(priority = 2)
     public void getFirstAndLastValue(){
         test = extent.createTest("Get First and Last Employee Name and Age");
-        System.out.println("Test #1 Get First and Last Employee Name and Age");
+        System.out.println("Test #2 Get First and Last Employee Name and Age");
         test.log(Status.INFO, "Starting Test");
         Response response = RestAssured.
                 given().
